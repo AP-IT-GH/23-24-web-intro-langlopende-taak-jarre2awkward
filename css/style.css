@@ -1,0 +1,31 @@
+html, body {
+    box-sizing: border-box;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, Arial, Open Sans, sans-serif;
+    color: #151414;
+    height: 100%;
+    width: 100%;
+}
+.groenbg {
+    background-color: #28b823 ;
+}
+.groen {
+    color: #28b823 ;
+}
+.socials-container {
+    display: flex;
+    justify-content: left; 
+    align-items: center; 
+}
+  
+.social-icon {
+    margin-right: 10px;
+}
+.grijs {
+    color: #383c41;
+}
+.wit {
+    color: #ffffff;
+}
