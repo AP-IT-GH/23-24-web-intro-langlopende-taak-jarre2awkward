@@ -1,6 +1,5 @@
 html, body {
     box-sizing: border-box;
-    background-color: #ffffff;
     margin: 0;
     padding: 0;
     font-family: Tahoma, Arial, Open Sans, sans-serif;
@@ -8,13 +7,16 @@ html, body {
     height: 100%;
     width: 100%;
 }
+html, body, header, footer, aside, nav {
+    background-color: #b3b3b3;
+}
 .groenbg {
     background-color: #28b823 ;
 }
 .groen {
     color: #28b823 ;
 }
-.socials-container {
+.socials {
     display: flex;
     justify-content: left; 
     align-items: center; 
@@ -26,6 +28,16 @@ html, body {
 .grijs {
     color: #383c41;
 }
+.grijsbg {
+    background-color: #383c41;
+}
 .wit {
     color: #ffffff;
+}
+.navbar {
+    padding: 0;
+  }
+
+.themed-container {
+    margin: 20px;
 }
